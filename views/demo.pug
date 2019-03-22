@@ -1,0 +1,15 @@
+extends layout
+
+block bk_head
+    link(rel='stylesheet', href='/styles/index.css')
+
+block bk_content
+  div.header
+    span= title
+    span#count
+  div.content
+    input#info(type='text')
+    button#btn 添加评论
+    p#p
+  script(src="/js/demo/index.js")
+  script(src="/js/demo/vue.js")
