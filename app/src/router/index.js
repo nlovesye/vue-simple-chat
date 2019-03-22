@@ -8,8 +8,8 @@ export const routes = [
   {
     path: '/',
     name: 'Index',
-    component: Index,
-    redirect: '/admin'
+    component: Index
+    // redirect: '/admin'
   },
   {
     path: '/login',

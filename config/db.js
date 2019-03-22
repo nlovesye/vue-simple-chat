@@ -1,6 +1,6 @@
 const CONFIG = {
     dbUrl: 'mongodb://localhost:27017/',
-    dbName: 'pro_manage'
+    dbName: 'vue-simple-chat'
 }
 
 module.exports = CONFIG

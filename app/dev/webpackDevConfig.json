@@ -1,1 +1,820 @@
-{"mode":"development","context":"E:\\nlovesye\\vue-simple-chat\\app","devtool":"cheap-module-eval-source-map","node":{"setImmediate":false,"process":"mock","dgram":"empty","fs":"empty","net":"empty","tls":"empty","child_process":"empty"},"output":{"path":"E:\\nlovesye\\vue-simple-chat\\app\\dist","filename":"[name].js","publicPath":"/","globalObject":"this"},"resolve":{"alias":{"@":"E:\\nlovesye\\vue-simple-chat\\app\\src","vue$":"vue/dist/vue.runtime.esm.js"},"extensions":[".mjs",".js",".jsx",".vue",".json",".wasm"],"modules":["node_modules","E:\\nlovesye\\vue-simple-chat\\app\\node_modules","E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\@vue\\cli-service\\node_modules"]},"resolveLoader":{"modules":["E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\@vue\\cli-plugin-eslint\\node_modules","E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\@vue\\cli-plugin-babel\\node_modules","node_modules","E:\\nlovesye\\vue-simple-chat\\app\\node_modules","E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\@vue\\cli-service\\node_modules"]},"module":{"noParse":{},"rules":[{"test":{},"use":[{"loader":"cache-loader","options":{"cacheDirectory":"E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\.cache\\vue-loader","cacheIdentifier":"f73963a6"}},{"loader":"vue-loader","options":{"compilerOptions":{"preserveWhitespace":false},"cacheDirectory":"E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\.cache\\vue-loader","cacheIdentifier":"f73963a6"}}]},{"test":{},"use":[{"loader":"url-loader","options":{"limit":4096,"fallback":{"loader":"file-loader","options":{"name":"img/[name].[hash:8].[ext]"}}}}]},{"test":{},"use":[{"loader":"file-loader","options":{"name":"img/[name].[hash:8].[ext]"}}]},{"test":{},"use":[{"loader":"url-loader","options":{"limit":4096,"fallback":{"loader":"file-loader","options":{"name":"media/[name].[hash:8].[ext]"}}}}]},{"test":{},"use":[{"loader":"url-loader","options":{"limit":4096,"fallback":{"loader":"file-loader","options":{"name":"fonts/[name].[hash:8].[ext]"}}}}]},{"test":{},"use":[{"loader":"pug-plain-loader"}]},{"test":{},"oneOf":[{"resourceQuery":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2,"modules":true,"localIdentName":"[name]_[local]_[hash:base64:5]"}},{"loader":"postcss-loader","options":{"sourceMap":false}}]},{"resourceQuery":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2}},{"loader":"postcss-loader","options":{"sourceMap":false}}]},{"test":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2,"modules":true,"localIdentName":"[name]_[local]_[hash:base64:5]"}},{"loader":"postcss-loader","options":{"sourceMap":false}}]},{"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2}},{"loader":"postcss-loader","options":{"sourceMap":false}}]}]},{"test":{},"oneOf":[{"resourceQuery":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2,"modules":true,"localIdentName":"[name]_[local]_[hash:base64:5]"}},{"loader":"postcss-loader","options":{"sourceMap":false}}]},{"resourceQuery":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2}},{"loader":"postcss-loader","options":{"sourceMap":false}}]},{"test":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2,"modules":true,"localIdentName":"[name]_[local]_[hash:base64:5]"}},{"loader":"postcss-loader","options":{"sourceMap":false}}]},{"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2}},{"loader":"postcss-loader","options":{"sourceMap":false}}]}]},{"test":{},"oneOf":[{"resourceQuery":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2,"modules":true,"localIdentName":"[name]_[local]_[hash:base64:5]"}},{"loader":"postcss-loader","options":{"sourceMap":false}},{"loader":"sass-loader","options":{"sourceMap":false}}]},{"resourceQuery":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2}},{"loader":"postcss-loader","options":{"sourceMap":false}},{"loader":"sass-loader","options":{"sourceMap":false}}]},{"test":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2,"modules":true,"localIdentName":"[name]_[local]_[hash:base64:5]"}},{"loader":"postcss-loader","options":{"sourceMap":false}},{"loader":"sass-loader","options":{"sourceMap":false}}]},{"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2}},{"loader":"postcss-loader","options":{"sourceMap":false}},{"loader":"sass-loader","options":{"sourceMap":false}}]}]},{"test":{},"oneOf":[{"resourceQuery":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2,"modules":true,"localIdentName":"[name]_[local]_[hash:base64:5]"}},{"loader":"postcss-loader","options":{"sourceMap":false}},{"loader":"sass-loader","options":{"sourceMap":false,"indentedSyntax":true}}]},{"resourceQuery":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2}},{"loader":"postcss-loader","options":{"sourceMap":false}},{"loader":"sass-loader","options":{"sourceMap":false,"indentedSyntax":true}}]},{"test":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2,"modules":true,"localIdentName":"[name]_[local]_[hash:base64:5]"}},{"loader":"postcss-loader","options":{"sourceMap":false}},{"loader":"sass-loader","options":{"sourceMap":false,"indentedSyntax":true}}]},{"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2}},{"loader":"postcss-loader","options":{"sourceMap":false}},{"loader":"sass-loader","options":{"sourceMap":false,"indentedSyntax":true}}]}]},{"test":{},"oneOf":[{"resourceQuery":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2,"modules":true,"localIdentName":"[name]_[local]_[hash:base64:5]"}},{"loader":"postcss-loader","options":{"sourceMap":false}},{"loader":"less-loader","options":{"sourceMap":false}}]},{"resourceQuery":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2}},{"loader":"postcss-loader","options":{"sourceMap":false}},{"loader":"less-loader","options":{"sourceMap":false}}]},{"test":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2,"modules":true,"localIdentName":"[name]_[local]_[hash:base64:5]"}},{"loader":"postcss-loader","options":{"sourceMap":false}},{"loader":"less-loader","options":{"sourceMap":false}}]},{"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2}},{"loader":"postcss-loader","options":{"sourceMap":false}},{"loader":"less-loader","options":{"sourceMap":false}}]}]},{"test":{},"oneOf":[{"resourceQuery":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2,"modules":true,"localIdentName":"[name]_[local]_[hash:base64:5]"}},{"loader":"postcss-loader","options":{"sourceMap":false}},{"loader":"stylus-loader","options":{"sourceMap":false,"preferPathResolver":"webpack"}}]},{"resourceQuery":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2}},{"loader":"postcss-loader","options":{"sourceMap":false}},{"loader":"stylus-loader","options":{"sourceMap":false,"preferPathResolver":"webpack"}}]},{"test":{},"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2,"modules":true,"localIdentName":"[name]_[local]_[hash:base64:5]"}},{"loader":"postcss-loader","options":{"sourceMap":false}},{"loader":"stylus-loader","options":{"sourceMap":false,"preferPathResolver":"webpack"}}]},{"use":[{"loader":"vue-style-loader","options":{"sourceMap":false,"shadowMode":false}},{"loader":"css-loader","options":{"sourceMap":false,"importLoaders":2}},{"loader":"postcss-loader","options":{"sourceMap":false}},{"loader":"stylus-loader","options":{"sourceMap":false,"preferPathResolver":"webpack"}}]}]},{"test":{},"exclude":[null],"use":[{"loader":"cache-loader","options":{"cacheDirectory":"E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\.cache\\babel-loader","cacheIdentifier":"82f4c542"}},{"loader":"babel-loader"}]},{"enforce":"pre","test":{},"exclude":[{},"E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\@vue\\cli-service\\lib"],"use":[{"loader":"eslint-loader","options":{"extensions":[".js",".jsx",".vue"],"cache":true,"cacheIdentifier":"06848c7d","emitWarning":true,"emitError":false,"eslintPath":"E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\eslint\\lib\\api.js"}}]}]},"plugins":[{},{"definitions":{"process.env":{"NODE_ENV":"\"development\"","BASE_URL":"\"/\""}}},{"options":{},"pathCache":{},"fsOperations":0,"primed":false},{"compilationSuccessInfo":{},"shouldClearConsole":true,"formatters":[null,null,null,null],"transformers":[null,null,null,null],"previousEndTimes":{}},{"options":{},"fullBuildTimeout":200,"requestTimeout":10000},{"profile":false,"modulesCount":500,"showEntries":false,"showModules":true,"showActiveModules":true},{"options":{"template":"E:\\nlovesye\\vue-simple-chat\\app\\public\\index.html","filename":"index.html","hash":false,"inject":true,"compile":true,"favicon":false,"minify":false,"cache":true,"showErrors":true,"chunks":"all","excludeChunks":[],"chunksSortMode":"auto","meta":{},"title":"Webpack App","xhtml":false}},{"options":{"iconPaths":{"favicon32":"img/icons/favicon-32x32.png","favicon16":"img/icons/favicon-16x16.png","appleTouchIcon":"img/icons/apple-touch-icon-152x152.png","maskIcon":"img/icons/safari-pinned-tab.svg","msTileImage":"img/icons/msapplication-icon-144x144.png"},"name":"frame-vue","themeColor":"#4DBA87","msTileColor":"#000000","appleMobileWebAppCapable":"no","appleMobileWebAppStatusBarStyle":"default","assetsVersion":"","manifestPath":"manifest.json"}},{"options":{"rel":"preload","include":"initial","excludeHtmlNames":[],"fileBlacklist":[{},{}]}},{"options":{"rel":"prefetch","include":"asyncChunks","excludeHtmlNames":[],"fileBlacklist":[{}]}},{}],"entry":{"app":["./src/main.js"]}}
+{
+    "mode": "development",
+    "context": "E:\\nlovesye\\vue-simple-chat\\app",
+    "devtool": "cheap-module-eval-source-map",
+    "node": {
+        "setImmediate": false,
+        "process": "mock",
+        "dgram": "empty",
+        "fs": "empty",
+        "net": "empty",
+        "tls": "empty",
+        "child_process": "empty"
+    },
+    "output": {
+        "path": "E:\\nlovesye\\vue-simple-chat\\app\\dist",
+        "filename": "[name].js",
+        "publicPath": "/",
+        "globalObject": "this"
+    },
+    "resolve": {
+        "alias": {
+            "@": "E:\\nlovesye\\vue-simple-chat\\app\\src",
+            "vue$": "vue/dist/vue.runtime.esm.js"
+        },
+        "extensions": [".mjs", ".js", ".jsx", ".vue", ".json", ".wasm"],
+        "modules": ["node_modules", "E:\\nlovesye\\vue-simple-chat\\app\\node_modules", "E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\@vue\\cli-service\\node_modules"]
+    },
+    "resolveLoader": {
+        "modules": ["E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\@vue\\cli-plugin-eslint\\node_modules", "E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\@vue\\cli-plugin-babel\\node_modules", "node_modules", "E:\\nlovesye\\vue-simple-chat\\app\\node_modules", "E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\@vue\\cli-service\\node_modules"]
+    },
+    "module": {
+        "noParse": {},
+        "rules": [{
+            "test": {},
+            "use": [{
+                "loader": "cache-loader",
+                "options": {
+                    "cacheDirectory": "E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\.cache\\vue-loader",
+                    "cacheIdentifier": "f73963a6"
+                }
+            }, {
+                "loader": "vue-loader",
+                "options": {
+                    "compilerOptions": {
+                        "preserveWhitespace": false
+                    },
+                    "cacheDirectory": "E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\.cache\\vue-loader",
+                    "cacheIdentifier": "f73963a6"
+                }
+            }]
+        }, {
+            "test": {},
+            "use": [{
+                "loader": "url-loader",
+                "options": {
+                    "limit": 4096,
+                    "fallback": {
+                        "loader": "file-loader",
+                        "options": {
+                            "name": "img/[name].[hash:8].[ext]"
+                        }
+                    }
+                }
+            }]
+        }, {
+            "test": {},
+            "use": [{
+                "loader": "file-loader",
+                "options": {
+                    "name": "img/[name].[hash:8].[ext]"
+                }
+            }]
+        }, {
+            "test": {},
+            "use": [{
+                "loader": "url-loader",
+                "options": {
+                    "limit": 4096,
+                    "fallback": {
+                        "loader": "file-loader",
+                        "options": {
+                            "name": "media/[name].[hash:8].[ext]"
+                        }
+                    }
+                }
+            }]
+        }, {
+            "test": {},
+            "use": [{
+                "loader": "url-loader",
+                "options": {
+                    "limit": 4096,
+                    "fallback": {
+                        "loader": "file-loader",
+                        "options": {
+                            "name": "fonts/[name].[hash:8].[ext]"
+                        }
+                    }
+                }
+            }]
+        }, {
+            "test": {},
+            "use": [{
+                "loader": "pug-plain-loader"
+            }]
+        }, {
+            "test": {},
+            "oneOf": [{
+                "resourceQuery": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2,
+                        "modules": true,
+                        "localIdentName": "[name]_[local]_[hash:base64:5]"
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }]
+            }, {
+                "resourceQuery": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }]
+            }, {
+                "test": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2,
+                        "modules": true,
+                        "localIdentName": "[name]_[local]_[hash:base64:5]"
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }]
+            }, {
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }]
+            }]
+        }, {
+            "test": {},
+            "oneOf": [{
+                "resourceQuery": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2,
+                        "modules": true,
+                        "localIdentName": "[name]_[local]_[hash:base64:5]"
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }]
+            }, {
+                "resourceQuery": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }]
+            }, {
+                "test": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2,
+                        "modules": true,
+                        "localIdentName": "[name]_[local]_[hash:base64:5]"
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }]
+            }, {
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }]
+            }]
+        }, {
+            "test": {},
+            "oneOf": [{
+                "resourceQuery": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2,
+                        "modules": true,
+                        "localIdentName": "[name]_[local]_[hash:base64:5]"
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }, {
+                    "loader": "sass-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }]
+            }, {
+                "resourceQuery": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }, {
+                    "loader": "sass-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }]
+            }, {
+                "test": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2,
+                        "modules": true,
+                        "localIdentName": "[name]_[local]_[hash:base64:5]"
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }, {
+                    "loader": "sass-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }]
+            }, {
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }, {
+                    "loader": "sass-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }]
+            }]
+        }, {
+            "test": {},
+            "oneOf": [{
+                "resourceQuery": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2,
+                        "modules": true,
+                        "localIdentName": "[name]_[local]_[hash:base64:5]"
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }, {
+                    "loader": "sass-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "indentedSyntax": true
+                    }
+                }]
+            }, {
+                "resourceQuery": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }, {
+                    "loader": "sass-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "indentedSyntax": true
+                    }
+                }]
+            }, {
+                "test": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2,
+                        "modules": true,
+                        "localIdentName": "[name]_[local]_[hash:base64:5]"
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }, {
+                    "loader": "sass-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "indentedSyntax": true
+                    }
+                }]
+            }, {
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }, {
+                    "loader": "sass-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "indentedSyntax": true
+                    }
+                }]
+            }]
+        }, {
+            "test": {},
+            "oneOf": [{
+                "resourceQuery": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2,
+                        "modules": true,
+                        "localIdentName": "[name]_[local]_[hash:base64:5]"
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }, {
+                    "loader": "less-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }]
+            }, {
+                "resourceQuery": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }, {
+                    "loader": "less-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }]
+            }, {
+                "test": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2,
+                        "modules": true,
+                        "localIdentName": "[name]_[local]_[hash:base64:5]"
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }, {
+                    "loader": "less-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }]
+            }, {
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }, {
+                    "loader": "less-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }]
+            }]
+        }, {
+            "test": {},
+            "oneOf": [{
+                "resourceQuery": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2,
+                        "modules": true,
+                        "localIdentName": "[name]_[local]_[hash:base64:5]"
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }, {
+                    "loader": "stylus-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "preferPathResolver": "webpack"
+                    }
+                }]
+            }, {
+                "resourceQuery": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }, {
+                    "loader": "stylus-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "preferPathResolver": "webpack"
+                    }
+                }]
+            }, {
+                "test": {},
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2,
+                        "modules": true,
+                        "localIdentName": "[name]_[local]_[hash:base64:5]"
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }, {
+                    "loader": "stylus-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "preferPathResolver": "webpack"
+                    }
+                }]
+            }, {
+                "use": [{
+                    "loader": "vue-style-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "shadowMode": false
+                    }
+                }, {
+                    "loader": "css-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "importLoaders": 2
+                    }
+                }, {
+                    "loader": "postcss-loader",
+                    "options": {
+                        "sourceMap": false
+                    }
+                }, {
+                    "loader": "stylus-loader",
+                    "options": {
+                        "sourceMap": false,
+                        "preferPathResolver": "webpack"
+                    }
+                }]
+            }]
+        }, {
+            "test": {},
+            "exclude": [null],
+            "use": [{
+                "loader": "cache-loader",
+                "options": {
+                    "cacheDirectory": "E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\.cache\\babel-loader",
+                    "cacheIdentifier": "82f4c542"
+                }
+            }, {
+                "loader": "babel-loader"
+            }]
+        }, {
+            "enforce": "pre",
+            "test": {},
+            "exclude": [{}, "E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\@vue\\cli-service\\lib"],
+            "use": [{
+                "loader": "eslint-loader",
+                "options": {
+                    "extensions": [".js", ".jsx", ".vue"],
+                    "cache": true,
+                    "cacheIdentifier": "06848c7d",
+                    "emitWarning": true,
+                    "emitError": false,
+                    "eslintPath": "E:\\nlovesye\\vue-simple-chat\\app\\node_modules\\eslint\\lib\\api.js"
+                }
+            }]
+        }]
+    },
+    "plugins": [{}, {
+        "definitions": {
+            "process.env": {
+                "NODE_ENV": "\"development\"",
+                "BASE_URL": "\"/\""
+            }
+        }
+    }, {
+        "options": {},
+        "pathCache": {},
+        "fsOperations": 0,
+        "primed": false
+    }, {
+        "compilationSuccessInfo": {},
+        "shouldClearConsole": true,
+        "formatters": [null, null, null, null],
+        "transformers": [null, null, null, null],
+        "previousEndTimes": {}
+    }, {
+        "options": {},
+        "fullBuildTimeout": 200,
+        "requestTimeout": 10000
+    }, {
+        "profile": false,
+        "modulesCount": 500,
+        "showEntries": false,
+        "showModules": true,
+        "showActiveModules": true
+    }, {
+        "options": {
+            "template": "E:\\nlovesye\\vue-simple-chat\\app\\public\\index.html",
+            "filename": "index.html",
+            "hash": false,
+            "inject": true,
+            "compile": true,
+            "favicon": false,
+            "minify": false,
+            "cache": true,
+            "showErrors": true,
+            "chunks": "all",
+            "excludeChunks": [],
+            "chunksSortMode": "auto",
+            "meta": {},
+            "title": "Webpack App",
+            "xhtml": false
+        }
+    }, {
+        "options": {
+            "iconPaths": {
+                "favicon32": "img/icons/favicon-32x32.png",
+                "favicon16": "img/icons/favicon-16x16.png",
+                "appleTouchIcon": "img/icons/apple-touch-icon-152x152.png",
+                "maskIcon": "img/icons/safari-pinned-tab.svg",
+                "msTileImage": "img/icons/msapplication-icon-144x144.png"
+            },
+            "name": "frame-vue",
+            "themeColor": "#4DBA87",
+            "msTileColor": "#000000",
+            "appleMobileWebAppCapable": "no",
+            "appleMobileWebAppStatusBarStyle": "default",
+            "assetsVersion": "",
+            "manifestPath": "manifest.json"
+        }
+    }, {
+        "options": {
+            "rel": "preload",
+            "include": "initial",
+            "excludeHtmlNames": [],
+            "fileBlacklist": [{}, {}]
+        }
+    }, {
+        "options": {
+            "rel": "prefetch",
+            "include": "asyncChunks",
+            "excludeHtmlNames": [],
+            "fileBlacklist": [{}]
+        }
+    }, {}],
+    "entry": {
+        "app": ["./src/main.js"]
+    }
+}

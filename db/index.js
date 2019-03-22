@@ -24,10 +24,10 @@ class Db {
                 // console.log(2)
                 MongoClient.connect(config.dbUrl, (err, client) => {
                     if (err) {
-                        console.log(`----数据库连接失败----`)
+                        console.log(`----MongoDB数据库连接失败----尝试连接数据库地址:[${config.dbUrl}]`)
                         reject(err)
                     } else {
-                        console.log(`----MongoDB数据库连接成功----数据库名称:[${config.dbName}]`)
+                        console.log(`----MongoDB数据库连接成功----当前连接数据库地址:[${config.dbUrl}],数据库名称:[${config.dbName}]`)
                         this.dbClient = client.db(config.dbName)
                         resolve(this.dbClient)
                     }
