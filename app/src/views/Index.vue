@@ -1,6 +1,7 @@
 <template>
   <div class="index">
-    THIS IS INDEX PAGE
+    <h1>THIS IS INDEX PAGE</h1>
+    <img src="@img/logo.png" alt="">
   </div>
 </template>
 
